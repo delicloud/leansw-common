@@ -18,6 +18,13 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
+    <scm>
+        <url>https://github.com/tw-leansw/leansw-common</url>
+        <connection>scm:git:git://github.com:tw-leansw/leansw-common.git</connection>
+        <developerConnection>scm:git:git@github.com:tw-leansw/leansw-common.git</developerConnection>
+    </scm>
+
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
