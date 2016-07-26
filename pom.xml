@@ -23,17 +23,16 @@
         <connection>scm:git:git://github.com:tw-leansw/leansw-common.git</connection>
         <developerConnection>scm:git:git@github.com:tw-leansw/leansw-common.git</developerConnection>
     </scm>
-      <distributionManagement>
+    <distributionManagement>
         <snapshotRepository>
-          <id>nexus-snapshots</id>
-          <url>http://nexus.server:9091/content/repositories/snapshots/</url>
+            <id>nexus-snapshots</id>
+            <url>http://nexus.server:9091/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
-          <id>nexus-releases</id>
-          <url>http://nexus.server:9091/content/repositories/releases/</url>
+            <id>nexus-releases</id>
+            <url>http://nexus.server:9091/content/repositories/releases/</url>
         </repository>
-      </distributionManagement>
-
+    </distributionManagement>
 
     <dependencies>
         <dependency>
